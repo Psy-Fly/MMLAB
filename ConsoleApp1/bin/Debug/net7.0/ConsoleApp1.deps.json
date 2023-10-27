@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "ConsoleApp1/1.0.0": {
+        "dependencies": {
+          "BigRational": "1.0.0.7"
+        },
+        "runtime": {
+          "ConsoleApp1.dll": {}
+        }
+      },
+      "BigRational/1.0.0.7": {
+        "runtime": {
+          "lib/net7.0/System.Numerics.Rational.dll": {
+            "assemblyVersion": "1.0.0.7",
+            "fileVersion": "1.0.0.7"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApp1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BigRational/1.0.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CM10SrdwFk1LQwo5BjLS4NkzTzaMM2fl9gndr92EdOj4dLrB771wG3OMJmiPCM2wtQ/+ByvBuZUe9loiTIq+Gw==",
+      "path": "bigrational/1.0.0.7",
+      "hashPath": "bigrational.1.0.0.7.nupkg.sha512"
+    }
+  }
+}
